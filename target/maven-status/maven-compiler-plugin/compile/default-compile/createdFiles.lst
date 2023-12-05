@@ -1,6 +1,7 @@
 org\nerfilin\controllers\CabecerasHttpRequest.class
 org\nerfilin\controllers\ProductoXlsServlet.class
-org\nerfilin\controllers\ProductoJsonServlet.class
 org\nerfilin\models\Producto.class
+org\nerfilin\controllers\HoraActualizadaServlet.class
+org\nerfilin\controllers\ProductoJsonServlet.class
 org\nerfilin\services\ProductoService.class
 org\nerfilin\services\ProductoServiceImpl.class
