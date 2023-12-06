@@ -13,7 +13,8 @@ public class RederigirServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setHeader("Location", req.getContextPath() + "/productos.html");
-        resp.setStatus(HttpServletResponse.SC_FOUND);
+        //resp.setHeader("Location", req.getContextPath() + "/productos.html");
+        //resp.setStatus(HttpServletResponse.SC_FOUND);
+        resp.sendRedirect(req.getContextPath() + "/productos.html");
     }
 }
